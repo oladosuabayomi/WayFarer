@@ -36,7 +36,7 @@ const Header = () => {
     ];
 
     return (
-        <header className="fixed top-0 left-0 z-50 w-full py-5 lg:py-10 backdrop-blur-sm lg:bg-transparent">
+        <header className="fixed top-0 left-0 z-50 w-full py-2 lg:py-8 lg:px-6">
             <div className="container m-auto flex h-14 items-center justify-between max-lg:px-5">
                 {/* Desktop Navigation */}
                 <nav className="hidden lg:block w-full">

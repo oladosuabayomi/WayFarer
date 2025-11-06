@@ -87,9 +87,10 @@
     /* Heading 1 - 120px/128px */
     .h1 {
         font-family: var(--font-heading);
-        font-size: 120px;
-        line-height: 128px;
+        font-size: 80px;
+        line-height: 100px;
         font-weight: var(--font-weight-regular);
+        letter-spacing: -0.06em;
     }
 
     .h1-medium {
@@ -635,8 +636,9 @@
     .btn-primary {
         background-color: var(--color-green-primary);
         color: var(--color-white);
-        padding: 0.75rem 1.5rem;
-        border-radius: 0.5rem;
+        padding: 0.75rem 3rem;
+        /* border radius to rem */
+        border-radius: 1.7rem;
         font-weight: var(--font-weight-medium);
         transition: all 0.3s ease-in-out;
         box-shadow: var(--shadow-custom);
@@ -724,4 +726,13 @@
             padding-bottom: 6rem;
         }
     }
+}
+
+/* -------------------------------  Hero Section ------------------------------ */
+.search-log-desc-heading {
+    /* cannot use @apply */
+    font-family: var(--font-heading);
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: var(--font-weight-semibold);
 }
